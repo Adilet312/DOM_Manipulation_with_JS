@@ -44,6 +44,6 @@ const menu = function(){
   ul.appendChild(li2);
   ul.appendChild(li3);
   ul.appendChild(li4);
-  document.querySelector('body header').appendChild(ul);
+  document.querySelector('body').appendChild(ul);
 }();
 menu();
